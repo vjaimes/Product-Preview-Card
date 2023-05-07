@@ -10,8 +10,8 @@ html {
 
 body {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   height: 100vh;
   background-color: #f2ebe3;
 }
@@ -30,7 +30,7 @@ body {
   width: 50%;
 }
 
-.perfume {
+.perfume-img {
   width: 100%;
   height: 100%;
   object-fit: cover;

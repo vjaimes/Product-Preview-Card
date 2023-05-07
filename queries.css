@@ -1,11 +1,16 @@
 /* 384 px */
 @media (max-width: 24em) {
+  body {
+    overflow-x: hidden;
+  }
+
   .container {
     flex-direction: column;
-    width: 100vw;
+    width: 95vw;
     height: 100vh;
     overflow: hidden;
-    margin: 2.5rem 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .img-container {
@@ -14,7 +19,7 @@
     overflow: hidden;
   }
 
-  .perfume {
+  .perfume-img {
     width: 100%;
   }
 
