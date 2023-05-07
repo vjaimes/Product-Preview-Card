@@ -19,8 +19,8 @@ body {
 .container {
   display: flex;
   margin: 0 auto;
-  width: 52rem;
-  height: 40rem;
+  width: 60rem;
+  height: 45rem;
   border-radius: 1rem;
   overflow: hidden;
   background-color: #fff;
@@ -64,6 +64,8 @@ h1 {
   font-family: "Montserrat", sans-serif;
   color: #707070;
   margin-bottom: 2rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
 }
 
 .price {
@@ -98,6 +100,11 @@ h1 {
   color: #fff;
   height: 4.8rem;
   border-radius: 1rem;
+}
+
+.add-to-cart:hover,
+.add-to-cart:active {
+  background-color: #1c232b;
 }
 
 .attribution {
